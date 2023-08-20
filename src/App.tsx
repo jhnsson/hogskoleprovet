@@ -75,7 +75,7 @@ const App: React.FC = () => {
       <span className="flex flex-row gap-4 justify-center pt-16 text-[#7a7a7a] text-[26px]">
         <button
           className={`${
-            !toggle ? "text-[#00ff00] font-bold" : "hover:text-[#cecece] italic"
+            !toggle ? "text-[#ffffff] font-bold" : "hover:text-[#cecece] italic"
           }`}
           onClick={() => {
             setToggle(!toggle);
@@ -88,7 +88,7 @@ const App: React.FC = () => {
         </button>
         <button
           className={`${
-            toggle ? "text-[#00ff00] font-bold" : "hover:text-[#cecece] italic"
+            toggle ? "text-[#ffffff] font-bold" : "hover:text-[#cecece] italic"
           }`}
           onClick={() => {
             setToggle(!toggle);
